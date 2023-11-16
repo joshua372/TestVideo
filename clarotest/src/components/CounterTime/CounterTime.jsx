@@ -4,10 +4,8 @@ import { Box, Grid } from '@mui/material'
 
 const CounterTime = () =>{
     const [, forceUpdate] = useReducer(x => x + 1, 0)
-    let countDownDate = new Date("December 04, 2023 9:00:00").getTime()
-    // let myfunc = setInterval(function () {
-    //     forceUpdate();
-    // }, 1000)
+    let countDownDate = new Date("December 01, 2023 00:00:00").getTime()
+    
     useEffect(() => {
         setInterval(() => forceUpdate(), 1000);
       }, []);
