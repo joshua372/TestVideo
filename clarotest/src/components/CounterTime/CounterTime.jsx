@@ -34,19 +34,16 @@ const CounterTime = () =>{
                     </div>                    
                 </Grid>
                 <Grid item xs={3}>                   
-                        <div className='circle'>
-                            <p className='alineacionTitle'>{minutes}</p>
-                            <p className='alineacionSub'>MIN</p> 
-                        </div>
-                    
+                    <div className='circle'>
+                        <p className='alineacionTitle'>{minutes}</p>
+                        <p className='alineacionSub'>MIN</p> 
+                    </div>                    
                 </Grid> 
-                <Grid item xs={3}>
-                    
-                        <div className='circle'>
-                            <p className='alineacionTitle'>{seconds}</p>
-                            <p className='alineacionSub'>SEG</p>                         
-                        </div>
-                    
+                <Grid item xs={3}>                    
+                    <div className='circle'>
+                        <p className='alineacionTitle'>{seconds}</p>
+                        <p className='alineacionSub'>SEG</p>                         
+                    </div>                   
                 </Grid>       
             </Grid>           
         </Box>
